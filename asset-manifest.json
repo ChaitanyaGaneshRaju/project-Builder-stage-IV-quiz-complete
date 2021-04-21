@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/project-Builder-stage-IV-quiz-complete/static/css/main.80fa9c44.chunk.css",
-    "main.js": "/project-Builder-stage-IV-quiz-complete/static/js/main.b54cba03.chunk.js",
-    "main.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/main.b54cba03.chunk.js.map",
+    "main.js": "/project-Builder-stage-IV-quiz-complete/static/js/main.b527e560.chunk.js",
+    "main.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/main.b527e560.chunk.js.map",
     "runtime-main.js": "/project-Builder-stage-IV-quiz-complete/static/js/runtime-main.0c88d6cb.js",
     "runtime-main.js.map": "/project-Builder-stage-IV-quiz-complete/static/js/runtime-main.0c88d6cb.js.map",
     "static/css/2.3f6a4e7d.chunk.css": "/project-Builder-stage-IV-quiz-complete/static/css/2.3f6a4e7d.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.3f6a4e7d.chunk.css",
     "static/js/2.1ae70e21.chunk.js",
     "static/css/main.80fa9c44.chunk.css",
-    "static/js/main.b54cba03.chunk.js"
+    "static/js/main.b527e560.chunk.js"
   ]
 }
