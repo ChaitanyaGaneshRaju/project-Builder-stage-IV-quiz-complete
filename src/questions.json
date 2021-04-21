@@ -1,77 +1,123 @@
 [
   {
-    "question": "Which one of the following river flows between Vindhyan and Satpura ranges?",
-    "options": ["Narmada", "Mahanandi", "Son", "Netravati"],
-    "answer": "Narmada"
+    "id": 1,
+    "question": "Which is the hottest planet in our solar system?",
+    "answer": "Mercury",
+    "options": [
+      "Mercury",
+      "Earth",
+      "Venus",
+      "Mars"
+    ]
   },
   {
-    "question": "The Central Rice Research Station is situated in?",
-    "options": ["Chennai", "Cuttack", "Bangalore", "Quilon"],
-    "answer": "Cuttack"
+    "id": 2,
+    "question": "What is the correct order of the planets from the sun?",
+    "answer": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune",
+    "options": [
+      "Venus, Earth, Mercury, Mars, Jupiter, Saturn, Uranus and Neptune",
+      "Venus, Earth, Jupiter, Mars, Mercury, Saturn, Uranus and Neptune",
+      "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune",
+      "Venus, Earth, Jupiter, Mars, Mercury, Saturn, Uranus and Neptune"
+    ]
   },
   {
-    "question": "Who among the following wrote Sanskrit grammar?",
-    "options": ["Kalidas", "Charak", "Panini", "AryaBhatta"],
-    "answer": "Panini"
+    "id": 3,
+    "question": "Which is the largest astero 'id' ?",
+    "answer": "Ceres",
+    "options": [
+      "Ceres",
+      "4 Vesta",
+      "Bennu",
+      "2 Pallas"
+    ]
   },
   {
-    "question": "The metal whose salts are sensitive to light is?",
-    "options": ["Zinc","Silver","Copper","Aluminum"],
-    "answer": "Silver"
+    "id": 4,
+    "question": " What year were the first astronauts selected?",
+    "answer": "1959",
+    "options": [
+      "1959",
+      "1998",
+      "1958",
+      "1963"
+    ]
   },
   {
-    "question": "Patanjali is well known for the compilation of –",
-    "options": ["Yoga Sutra","Pancha tanatra","Brahmasutra","Ayurveda"],
-    "answer": "Yoga Sutra"
+    "id": 5,
+    "question": "What mass does the sun take up in the solar system?",
+    "answer": "99.86",
+    "options": [
+      "89.45",
+      "99.86",
+      "78.68",
+      "32.89"
+    ]
   },
   {
-    "question": "River Luni originates near Pushkar and drains into which one of the following?",
-    "options": ["Rann of Kachchh","Arabian Sea","Gulf of Cambay","Lake Sambhar"],
-    "answer": "Rann of Kachchh"
+    "id": 6,
+    "question": "Who was the first man in space ?",
+    "answer": "Yuri Gagarin",
+    "options": [
+      "Scott Kelly",
+      "Yuri Gagarin",
+      "Nick Hauge",
+      "Neil Armstrong"
+    ]
   },
   {
-    "question": "Which one of the following rivers originates in Brahmagiri range of Western Ghats?",
-    "options": ["Pennar","Cauvery","Krishna","Tapti"],
-    "answer": "Cauvery"
+    "id": 7,
+    "question": "Which was the first animal to go into space?",
+    "answer": "Dog",
+    "options": [
+      "Mouse",
+      "Cat",
+      "Dog",
+      "Monkey"
+    ]
   },
   {
-    "question": "The country that has the highest in Barley Production?",
-    "options": ["China","India","Russia","France"],
-    "answer": "Russia"
+    "id": 8,
+    "question": "Complete the formula: Speed = _____ / Time",
+    "answer": "Distance",
+    "options": [
+      "Mass",
+      "Direction",
+      "Temperature",
+      "Distance"
+    ]
   },
   {
-    "question": "Tsunamis are not caused by",
-    "options": ["Hurricanes","Earthquakes","Undersea landslides","Volcanic eruptions"],
-    "answer": "Hurricanes"
+    "id": 9,
+    "question": "Which of the following is an advantage of using JavaScript?",
+    "answer": "All of the above",
+    "options": [
+      "Increased interactivity",
+      "Less server interaction",
+      "Immediate feedback from the users",
+      "All of the above"
+    ]
   },
   {
-    "question": "Chambal river is a part of –",
-    "options": ["Sabarmati basin","Ganga basin","Narmada basin","Godavari basin"],
-    "answer": "Narmada basin"
+    "id": 10,
+    "question": "JavaScript is a ________ Side Scripting Language",
+    "answer": "Browser",
+    "options": [
+      "Server",
+      " ISP",
+      "Browser",
+      "None of the above"
+    ]
   },
   {
-    "question": "D.D.T. was invented by?",
-    "options": ["Mosley","Rudolf","Karl Benz","Dalton"],
-    "answer": "Mosley"
-  },
-  {
-    "question": "Volcanic eruption do not occur in the",
-    "options": ["Baltic sea","Black sea","Caribbean sea","Caspian sea"],
-    "answer": "Baltic sea"
-  },
-  {
-    "question": "Indus river originates in –",
-    "options": ["Kinnaur","Ladakh","Nepal","Tibet"],
-    "answer": "Tibet"
-  },
-  {
-    "question": "The hottest planet in the solar system?",
-    "options": ["Mercury","Venus","Mars","Jupiter"],
-    "answer": "Venus"
-  },
-  {
-    "question": "With which of the following rivers does Chambal river merge?",
-    "options": ["Banas","Ganga","Narmada","Yamuna"],
-    "answer": "Yamuna"
+    "id": 10,
+    "question": "JavaScript is a ________ Side Scripting Language",
+    "answer": "Browser",
+    "options": [
+      "Server",
+      " ISP",
+      "Browser",
+      "None of the above"
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 import "./App.css";
 import HomeComponent from "./Components/HomeComponent";
 import QuizComponent from "./Components/QuizComponent";
-import ResultComponent from "./Components/ResultComponent"
+import ResultComponent from "./Components/ResultComponent";
 import { Router, Route, Switch } from "react-router-dom";
 import history from "./Components/history";
 
@@ -10,14 +10,14 @@ function App() {
     <div className="App">
       <Router history={history}>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/project-Builder-stage-IV-quiz-complete">
             <HomeComponent />
           </Route>
           <Route exact path="/quiz">
             <QuizComponent/>
           </Route>
           <Route exact path="/result">
-            <ResultComponent/>
+            <ResultComponent />
           </Route>
         </Switch>
       </Router>

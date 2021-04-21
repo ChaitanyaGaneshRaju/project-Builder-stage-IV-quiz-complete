@@ -13,6 +13,7 @@ class ResultComponent extends Component {
         <i className="far fa-check-circle check-mark"></i>
         <h2 id="result">Result</h2>
         <div className="result-white-panel">
+        <h1>Quiz has been completed</h1>
           <h1>Your score: {Math.ceil((rightAnswers * 100) / 15)}%</h1>
           <div id="details">
             <div className="info">
@@ -35,7 +36,7 @@ class ResultComponent extends Component {
             <Link to="/quiz">Play again</Link>
           </button>
           <button id="back">
-            <Link to="/">Back to home</Link>
+            <Link to="/project-builder-react-stage-3-result">Back to home</Link>
           </button>
         </div>
       </div>

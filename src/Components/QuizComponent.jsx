@@ -1,21 +1,24 @@
 import React, { Component } from "react";
 import "../Css/QuizComponent.css";
-import questions from "../questions.json";
 import history from "./history";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ReactCountdownClock from "react-countdown-clock";
+import questions from "../questions.json"
 
 class QuizComponent extends Component {
   constructor() {
     super();
+    
     this.state = {
       rightAnswers: 0,
       wrongAnswers: 0,
-      currentQuestion: 0,
       questions: [...questions],
+      currentQuestion: 0,
       attemptedAnswers: [],
     };
   }
+
   answer = (e) => {
     //two variable to hold weather answer is right or wrong
     let rightAnswer = 0;
@@ -61,7 +64,7 @@ class QuizComponent extends Component {
       wrongAnswers: this.state.wrongAnswers + wrongAnswer,
     });
   };
-  stopQuiz=()=>{
+  stopQuiz = () => {
     //Filtering the attempted answers and removing empty one (not answered ones)
     const attemptedAnswersFiltered = this.state.attemptedAnswers.filter(
       (answer) => {
@@ -74,7 +77,7 @@ class QuizComponent extends Component {
     params.append("wrongAnswers", this.state.wrongAnswers);
     var url = "/result?" + params.toString();
     history.push(url);
-  }
+  };
   next = () => {
     if (this.state.currentQuestion < this.state.questions.length - 1) {
       this.setState({ currentQuestion: this.state.currentQuestion + 1 });
@@ -88,6 +91,7 @@ class QuizComponent extends Component {
   };
   render() {
     return (
+      
       <div className="quiz-component">
         <div className="white-panel">
           <div className="question-panel">
@@ -98,6 +102,14 @@ class QuizComponent extends Component {
                 {this.state.questions.length}
               </p>
               <p>{this.state.questions[this.state.currentQuestion].question}</p>
+              {/* Count down time set for 120sec=2min */}
+              <ReactCountdownClock
+                seconds={120}
+                color="green"
+                weight="5"
+                size={50}
+                onComplete={this.stopQuiz}
+              />
             </div>
           </div>
           <div className="option-panel">
@@ -121,8 +133,11 @@ class QuizComponent extends Component {
             <button id="next" onClick={() => this.next()}>
               Next
             </button>
-            <button id="clear" onClick={()=>this.stopQuiz()}>Quit</button>
+            <button id="clear" onClick={() => this.stopQuiz()}>
+              Quit
+            </button>
           </div>
+          {/* Toast container to generate toast  */}
           <ToastContainer
             position="top-right"
             autoClose={5000}
@@ -134,7 +149,6 @@ class QuizComponent extends Component {
             draggable
             pauseOnHover
           />
-          {/* Same as */}
           <ToastContainer />
         </div>
       </div>
